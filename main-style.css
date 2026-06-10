@@ -47,16 +47,16 @@ span, strong, b {
     align-items: center;
 }
 
-#nav-bar-frame {
+.banner-frame {
     width: 100%;
     height: calc(clamp(90px,4rem,100vh));
     border-bottom: 3px solid black;
 }
 
-#nav-bar {
+.banner {
     background-color: #bea245; /* Original gray color: #b6b6b6 */
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -65,13 +65,13 @@ span, strong, b {
     align-items: center;
 }
 
-.nav-bar-item {
+.banner-item {
     background-color: #00000000;
     margin: 0;
     padding: 0;
 }
 
-.nav-bar-item * {
+.banner-item * {
     color: black;
 }
 
